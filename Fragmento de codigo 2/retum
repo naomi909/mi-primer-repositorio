@@ -38,7 +38,7 @@ function logAndReturn(num2){
    console.log(num2);   
    return num2;
 }
-var = logAndReturn(10);
+varlogAndReturn(10);
 console.log(result);
 console.log(num);
 /*
