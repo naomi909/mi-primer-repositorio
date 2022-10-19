@@ -12,11 +12,15 @@ span{
     color: aliceblue;
     text-align: center;
     font-style: italic;
+    font-family: cursive;
+    font-weight: lighter;
 }
 .subsubtitulo{
     background-color: rgb(130, 203, 236);
     color: rgb(105, 71, 136);
     text-align: right;
+    font-family: cursive;
+    font-weight: lighter;
 }
 
 
