@@ -1,0 +1,23 @@
+.titulo{          
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: left;
+    font-family: cursive;
+}
+span{
+    color: aqua
+}
+.subtitulo{ 
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+.subsubtitulo{
+    background-color: rgb(130, 203, 236);
+    color: rgb(105, 71, 136);
+    text-align: right;
+}
+
+
+
