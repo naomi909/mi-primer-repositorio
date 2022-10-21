@@ -1,0 +1,28 @@
+.boton1{
+    border-radius: 16px;
+    width: 130px;
+    height: 28px;
+    border-color: rgba(48, 156, 124);
+    color: rgba(48, 156, 124);
+    background-color: rgb(231, 231, 231);
+    font-family: cursive;
+}
+.boton2{
+    border-radius: 45%;
+    width: 40px;
+    height: 40px;
+    border-color: rgb(84, 194, 161);
+    color: aliceblue;
+    background-color: rgb(84, 194, 161);
+}
+.boton3{
+    border-radius: 0%;
+    width: 170px;
+    height: 35px;
+    border-color: black;
+    color: aliceblue;
+    background-color: rgba(54, 54, 233, 0.966);
+    box-shadow: 3px 4px rgb(0, 0, 0);
+
+
+ }
