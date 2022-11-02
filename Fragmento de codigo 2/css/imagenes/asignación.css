@@ -1,0 +1,23 @@
+img.octocat{
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+   
+.row{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 15px;
+padding: 20px;
+}
+.container1{
+    background-color: rgb(71, 181, 214);
+}
+.container2{
+    background-color: rgba(189, 93, 133, 0.596);
+}
+.container3{
+    background-color: rgb(245, 244, 240);
+}
