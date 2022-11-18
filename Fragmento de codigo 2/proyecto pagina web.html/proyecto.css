@@ -1,0 +1,83 @@
+.container{
+   width: 950px;
+   background-color: silver;
+   margin: auto;
+   padding: 20px;
+}
+*{
+   margin: 0%;
+   padding: 0%;
+   outline: solid 1px black;
+}
+.body{
+   padding: 1em;
+   margin: 1em;
+}
+.cuadro1{
+   background-color:rgba(83, 77, 77, 0.445) ;
+   font-family: sans-serif;
+   margin: 10px;
+   padding: 8px;
+   display: flex;
+   vertical-align: center;
+   justify-content: flex-start;
+   border-radius: 20px;
+   letter-spacing: 4px;
+}
+.iccp{
+   margin-left: 10px;
+   padding: 5px;
+   width:80px ;
+   height:80px;
+}
+.cuadro1 h2{
+   margin-left: 10px;
+   margin-top: 30px;
+}
+.liceo{
+   margin-left: 10px;
+   padding: 5px;
+   border-radius: 20px;
+}
+.cuadro2{
+   height: 280px;
+   background-color:rgba(137, 188, 223, 0.589) ;;
+   margin-left: 10px;
+   margin-top: 10px;
+   display: inline-block;
+   vertical-align: top;
+   padding: 5px;  
+   border-radius: 20px;
+   text-align:center;
+   font-family: sans-serif;
+   font-size: 15px;
+   letter-spacing: 5px;
+}
+
+.row{
+   display: flex;
+}
+
+.col{
+   flex: 1;
+}
+.padmar{
+   margin: 10px;
+   padding: 20px;
+   border-radius: 20px;
+}
+.cold{
+   margin: 10px;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   border-radius: 20px;
+ }
+ 

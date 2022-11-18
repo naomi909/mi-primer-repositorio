@@ -1,0 +1,11 @@
+.contenedor-header{
+    max-width:1100 ;
+    margin:auto ;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}  
+.contenedor-header{
+    background-image: contenedor-header;
+}
