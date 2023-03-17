@@ -9,10 +9,10 @@
 </head>
 <body>
   <div class="menu">
-    <div class="menu-texto">
+    <div class="menu-links">
       <h1 class="menu-titulo">Dojonary</h1>
       <input type="text" placeholder="Search" >
-      <button class="boton">Login</button>
+      <button onclick="turnOff (this)">Login</button>
     </div>
   </div>
   <div class="contenedor-principal">
@@ -23,9 +23,11 @@
           <h1>ninja</h1>
           <h4>noun</h4>
           <h3>Plural:ninjas</h3>
+          <div>
           <p>
-            <button class="boton1">13 likes</button>
+            <button class="boton1" onclick="alert ('ninja was liked')">13 likes</button>
           </p>
+        </div>
         </div>
         <h3>
           A practitiones skilled in the 
@@ -39,7 +41,7 @@
           <h4>noun</h4>
           <h3>Plural:ninjas</h3>
           <p>
-            <button class="boton1">13 likes</button>
+            <button class="boton1">37 likes</button>
           </p>
         </div>
         <h3>
@@ -56,10 +58,11 @@
             <br>
             defined by <b> YOU </b>
           </p>
-          <button class="boton-verde"> Add Definition </button>
+          <button class="boton-verde" onclick="hide (this)"> Add Definition </button>
         </div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
     width: 60%;
 }
 
-.menu-texto{
+.menu-links{
     width:90% ;
     display: flex;
     justify-content: space-between;
@@ -20,13 +20,13 @@
     padding: 20px;
 }
 
-.menu-texto input{
+.menu-links input{
     border:1px solid rgb(0, 0, 0) ;
-    width: 400px;
+    width: 500px;
     height: 25px;
 }
 
-.boton{
+.menu-links button{
     color: #ffffff;
     background-color: rgb(36, 63, 187);
     padding: 5px 15px;
