@@ -1,13 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-   
-} 
+    margin:0 ;
+    padding:0;
+    font-family: cursive;
+    color: #000000;
+}
+
 .tarjetaUSUARIO{
     border: 3px solid #babebe;
-    width: 500px; /*ancho*/
-    margin: 0 auto;
+    width: 350px; /*ancho*/
+    margin:20px ;
     height: 250px;
 }
 
@@ -35,6 +36,12 @@
 .icono{
     width: 10px;
 }
+
+
+    
+
+
+
 
 
 
