@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.barra{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 0 500px;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+}
+.cont-principal{
+    display: flex;
+    margin: 20px 610px;
+}
+.cont-izquierda{
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding: 35px 20px;
+    height: 170px;
+}
+.cont-izquierda img{
+    width: 70px;
+    height: 70px;
+    padding: 0 30px;
+}
+.cont-izquierda a{
+    margin: 20px 0;
+}
+.cont-derecha{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 40px;
+}
+.tarjeta{
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 12px;
+    padding: 25px 25px;
+    width: 400px;
+}
+.like{
+    display: flex;
+}
+.title-like{
+    margin-right: 170px;
+}
+.informacion-likes{
+    display: flex;
+    justify-content: space-between;
+}
+.informacion-likes h4{
+    margin-right: 30px;
+    margin-top: 4px;
+}
+.informacion-likes button{
+    background-color: rgb(255, 236, 130);
+    padding: 5px 15px;
+    box-shadow: 2px 2px;
+}
+.title-like{
+    margin-top: 10px;
+}
+.like1{
+    margin-right: 130px ;
+}
+.like2{
+    margin-right: 170px;
+}

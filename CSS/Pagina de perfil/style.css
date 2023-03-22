@@ -3,8 +3,6 @@
     margin: 0;
     font-family: cursive;
 }
-
-/*barra navegación*/
 .menu{
     background-color: black;
     display: flex;
@@ -13,28 +11,23 @@
     padding:20px 0;
     width: 100%;
 }
-
 .menu-links{
     color: aliceblue;
-    list-style: none; /*quitar puntos a lista*/
+    list-style: none; 
     display: flex;
     align-items: center;
-    gap: 20px; /*poner mismo espaco en todas las cosas*/
+    gap: 20px; 
     height: 100%;
 }
-
 .menu a{
     color: rgb(255, 255, 255);
 }
-
 .boton-menu{
     color: aliceblue;
     background-color: rgb(18, 100, 110);
     padding: 5px 15px;
     border-radius: 2px;
 }
-
-/*contenedor principal*/
 .contenedor{
     display: flex;
     justify-content: center;
@@ -45,86 +38,69 @@
 .contenedor-izquierda{
     margin-right: 10px;
 }
-
 .contenedor-derecha{
     margin-left: 10px;
 }
-
-/*tarjeta user*/
 .tarjeta-usuario{
-    width: 500px; /*ancho*/
+    width: 500px;
     height: 260px;
     border: 2px solid rgb(143, 143, 143);
     padding-bottom: 15px;
 }
-
 .bordeSuperior-azul{
     height: 80px;
     background-color: rgb(22, 110, 129);
 }
-
 .datos-usuario{
-    height: 150px; /*alto*/
+    height: 150px; 
     padding: 15px;
     margin-top: 15PX;
     display: flex;
-    flex-direction: column; /*que este todo en una misma columna*/
-    justify-content: space-evenly; /*espacio entre los items*/
+    flex-direction: column; 
+    justify-content: space-evenly; 
 }
-
 .imagen-de-usuario{
     width: 60px;
     border: 3px solid lightgray;
-    border-radius: 50% /*redondear borde*/;
+    border-radius: 50% ;
     position: relative;
-    top: 45px; /*acomodar arriba y abajo*/
-    left: 25px; /*mover a la derecha*/
+    top: 45px; 
+    left: 25px; 
 }
-
 .icono{
     width: 10px;
     margin-top: 10PX;
 }
-
-/*educación*/
 .educacion{
     width: 500px;
     border: 2px solid rgb(122, 122, 122);
     margin-top: 50px;
     padding-bottom: 10px;
 }
-
 .titulo-educacion{
     height: 50px;
     background-color: rgb(22, 22, 22);
 }
-
 .titulo-educacion h3{
     margin-left: 20px;
     color: aliceblue;
     padding: 10px 0;
 }
-
 .textoEdu{
     margin-left: 20px;
     margin-top: 10px;
 }
-
 .textoEdu h4{
     color: gray;
     margin-top: 6px;
 }
-
 .textoEdu p{
     margin-top: 5px;
 }
-
-/*connection requests*/
 .coneccion{
     width: 250px;
     border: 2px solid rgb(88, 88, 88);
 }
-
 .coneccion-gris{
     height: 50px;
     background-color: rgb(20, 20, 20);
@@ -132,7 +108,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-
 .coneccion-gris button{
     border: 3px solid rgb(0, 0, 0);
     background-color: rgb(202, 202, 202);
@@ -140,44 +115,35 @@
     width: 30px;
     height: 30px;
 }
-
 .coneccion-gris h3{
     color: aliceblue;
     align-items: center;
     display: flex;
     height: 100%;
 }
-
 .user-coneccion{
     display: flex;
     justify-content: space-between;
     padding: 7px 15px;
 }
-
 .solicitud{
     display: flex;
     justify-content: space-between;
 }
-
 .solicitud img{
     width: 30px;
     height: 30px;
     padding-right: 5px;
 }
-
 .solicitud-icono img{
     width: 25px;
     height: 25px;
 }
-
-/*tus amigos*/
-
 .tus-conecciones{
     width: 250px;
     border: 2px solid rgb(88, 88, 88);
     margin-top: 50px;
 }
-
 .tus-conecciones button{
     border: 3px solid rgb(0, 0, 0);
     background-color: rgb(202, 202, 202);
@@ -185,26 +151,22 @@
     width: 60px;
     height: 30px;
 }
-
 .amistades{
     display: flex;
     flex-direction: column;
     align-items: start;
     padding-left: 15px;
 }
-
 .amistades img{
     width: 30px;
     height: 30px;
     padding-right: 5px;
 }
-
 .amigo{
     display: flex;
     justify-content: center;
     padding: 7px 0;
 }
-
 .ver-mas{
     border-top: 3px solid rgb(158, 158, 158);
     padding: 7px ;
