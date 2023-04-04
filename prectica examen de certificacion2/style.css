@@ -1,0 +1,166 @@
+.principal{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(4, 53, 94);
+}
+.nav{
+    background-color: rgb(224, 224, 224);
+}
+.barra-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.barra-nav img{
+    height: 70px;
+    margin-top: 8px;
+    margin-left: 20px;
+    
+}
+.btn-input{
+    padding: 17px;
+    margin-right: 50px;
+}
+.btn-input button{
+    background-color: rgb(33, 33, 207);
+    color: aliceblue;
+    margin-right: 77px;
+    padding:5px 45px 5px 15px;
+    border-radius: 10px 0px 0px 10px ;
+}
+.btn-input input{
+    height: 23px;
+    width: 7cm;
+    border-radius: 7px;
+}
+.btn-input img{
+    height: 30px;
+    width: 30px;
+}
+.texto{
+    text-align: right;
+    padding: 0px 40px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor-principal{
+    background-color: rgb(4, 53, 94);
+    display: flex;
+    margin-top: -15px;
+}
+.contenedor-izquierda{
+    padding: 5px 25px ;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+.cont1{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(17, 57, 167);
+}
+.title{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 20px;
+    text-align: center;
+}
+.text-input{
+    background-color: rgba(205, 227, 245, 0.89);
+    margin-top: -14px;
+    padding: 5px 20px 20px 40px;
+}
+.text-input h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-input input{
+    height: 23px;
+    width: 6cm;
+    border-radius: 6px;
+}
+.text-input p{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-input button{
+    padding: 5px  18px 5px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: rgb(37, 42, 121);
+    border-radius: 8px;
+}
+.text-input a{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.caja-btn button{
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 8px 50px 8px 53px;
+    background-color: rgb(17, 57, 167);
+    color: aliceblue;
+    border: 2px solid white;
+}
+.contenedor-central img{
+    width: 600px;
+    height: 485px;
+}
+.contenedor-derecha img{
+    height: 488px;
+    width: 410px;
+}
+.barra-inferior{
+    background-color: rgb(182, 185, 185); 
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.barra-inferior h2{
+
+    margin-left: 40px;
+}
+.barra-inferior .sub{
+    color: rgb(13, 30, 185);
+    margin-left: 15px;
+}
+.recuadro{
+    padding: 30px;
+    display:flex;
+}
+.cub1{
+    border: blueviolet;
+    width: 430px;
+    height: 120px;
+    display: flex;
+    margin-left: 15px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+.cub1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 8px;
+}
+
+.textoo{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.textoo h4{
+}
+.textoo p{
+    color: rgb(47, 104, 209);
+    margin-top: -15px;
+}
+.bar-inferior{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    height: 35px;
+}
+.info{
+    margin-top: -7px;
+}
+.inferior-bar{
+    margin-left: 18cm;
+    margin-top: 10px;
+}
