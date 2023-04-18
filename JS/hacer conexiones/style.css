@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.barra{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 0;
+    width: 100%;
+}
+.barra-links{
+    color: aliceblue;
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    height: 100%;
+}
+.barra a{
+    color: rgb(255, 255, 255);
+}
+.boton-barra{
+    color: aliceblue;
+    background-color: rgb(18, 100, 110);
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.cont-principal{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 20px;
+}
+
+.cont-izquierda{
+    margin-right: 10px;
+}
+.cont-derecha{
+    margin-left: 10px;
+}
+.tarjeta-usuario{
+    width: 500px;
+    height: 260px;
+    border: 2px solid rgb(143, 143, 143);
+    padding-bottom: 15px;
+}
+.borde-azul{
+    height: 80px;
+    background-color: rgb(22, 110, 129);
+}
+.datos-usuario{
+    height: 150px; 
+    padding: 15px;
+    margin-top: 15PX;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly; 
+}
+.img-usuario{
+    width: 60px;
+    border: 3px solid lightgray;
+    border-radius: 50% ;
+    position: relative;
+    top: 45px; 
+    left: 25px; 
+}
+.icono{
+    width: 10px;
+    margin-top: 10PX;
+}
+.educacion{
+    width: 500px;
+    border: 2px solid rgb(122, 122, 122);
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.title-educacion{
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+}
+.title-educacion h3{
+    margin-left: 20px;
+    color: aliceblue;
+    padding: 10px 0;
+}
+.texto-edu{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.texto-edu h4{
+    color: gray;
+    margin-top: 6px;
+}
+.texto-edu p{
+    margin-top: 5px;
+}
+.coneccion{
+    width: 250px;
+    border: 2px solid rgb(88, 88, 88);
+}
+.gris{
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gris button{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.gris h3{
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.user-coneccion{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+}
+.solicitud{
+    display: flex;
+    justify-content: space-between;
+}
+.solicitud img{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+.solicitud-icono img{
+    width: 25px;
+    height: 25px;
+}
+.conecciones{
+    width: 250px;
+    border: 2px solid rgb(88, 88, 88);
+    margin-top: 50px;
+}
+.conecciones button{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    width: 60px;
+    height: 30px;
+}
+.am{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 15px;
+}
+.am img{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+.amigo{
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+}
+.mas{
+    border-top: 3px solid rgb(158, 158, 158);
+    padding: 7px ;
+}

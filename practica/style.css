@@ -1,0 +1,44 @@
+.principal{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.barra-nav {
+    display: flex;
+    border-radius: 5px 5px;
+    width: 100%;
+    border: 2px solid rgb(0, 217, 255);
+    width: 500px;
+}
+.barra-nav img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+.barra-nav button {
+    padding: 15px 25px;
+    border: 1px rgb(17, 0, 255);
+    background-color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 12px;
+}
+.button-123{
+    display: flex;
+    border: 2px solid red;
+    width: 22%;
+}
+.button-123 button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

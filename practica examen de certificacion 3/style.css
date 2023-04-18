@@ -1,5 +1,4 @@
 .principal{
-    border: 2px solid blue;
     width: 1660px;
     margin: 0 auto;
     background-color: rgb(231, 226, 226);
@@ -194,4 +193,8 @@
 }
 .imagen-zapatillas{
     margin-left: 238px;
+}
+.box1 img{
+    width: 589px;
+
 }
