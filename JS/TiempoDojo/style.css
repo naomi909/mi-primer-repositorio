@@ -1,0 +1,94 @@
+*{
+    margin:0 ;
+    padding:0;
+    font-family: cursive;
+}
+/*barra celeste*/
+.principal{
+    width: 100%;
+    margin: auto;
+}
+.nav{
+    background-color: rgb(146, 197, 255);
+    height: 4.5pc;
+    color: aliceblue;
+    display: flex;
+}
+.nav-title{
+    margin-top: 0.5%;
+    margin-left: 20%;
+}
+.barra-nav {
+    display: flex;
+    gap: 40%;
+    margin-top: 1%;
+    margin-left: 25%;
+}
+.nav2{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    border-bottom: 2px  solid black ;
+    padding-bottom: 0.5%;
+}
+.nav2-sub-title{
+    margin-left: 60%;
+    align-items: center;
+}
+.grados{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    margin-left: 3%;
+}
+.nav2-sub-title-box{
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    padding: 5px;
+}
+.nav2-sub-title-box1 select{
+    height: 2.5pc;
+    border: 2px solid black;
+}
+.contenedor{
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    display:flex ;
+    gap: 30px;
+}
+.caja1{
+    height: 400px;
+    width: 20pc;
+    background-color: rgb(204, 204, 204);
+}
+.caja1-title{
+    text-align: center;
+    margin-top: 8%;
+}
+.imagen-caja1 img{
+    height: 12pc;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.sub-caja1{
+    text-align: center;
+    margin-top: 8%;
+}
+.num{
+    display: flex;
+    margin-top: 5%;
+}
+.num1-caja1{
+    color: red;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight:bold ;
+}
+.num2-caja1{
+    color: blue;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: bold;
+}
