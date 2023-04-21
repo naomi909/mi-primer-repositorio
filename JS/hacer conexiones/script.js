@@ -18,5 +18,5 @@ function ignore(id) {
 }
 
 function edit() {
-    username.innerText = "Marisa G";
+    username.innerText = "catalina";
 }

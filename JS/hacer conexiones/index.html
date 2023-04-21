@@ -24,7 +24,7 @@
                     <img src="iconos/img-perfil.png" alt="img-usuario" class="img-usuario">
                 </div>
                 <div class="datos-usuario">
-                    <h1>Jane Doe</h1>
+                    <h1 id="username">Jane Doe</h1>
                     <h3> <img src="iconos/icon-ubi.png" alt="imagen-ubica" class="icono"> Seattle </h3>
                     <p>
                         Developer|Engineer|Problem Solver
@@ -48,33 +48,33 @@
         <div class="cont-derecha">
             <div class="coneccion">
                 <div class="gris">
-                    <button>2</button>
+                    <button id="requests">2</button>
                     <h3>Connection Requests</h3>
                 </div>
-                <div class="user-coneccion">
+                <div class="user-coneccion" id="request-1">
                     <div class="solicitud">
                         <img src="iconos/img-perfil.png" alt="">
                         <h4>Todd E</h4>
                     </div>
                     <div class="solicitud-icono">
-                        <img src="iconos/afirmativo.png" alt="">
-                        <img src="iconos/negativo.png" alt="">
+                        <img src="iconos/afirmativo.png" alt="" onclick='accept("#request-1")'>
+                        <img src="iconos/negativo.png" alt="" onclick='ignore("#request-1")'>
                     </div>
                 </div>
-                <div class="user-coneccion">
+                <div class="user-coneccion" id="request-2">
                     <div class="solicitud">
                         <img src="iconos/img-perfil.png" alt="">
-                        <h4>Phil K</h4>
+                        <h4>Phil E</h4>
                     </div>
                     <div class="solicitud-icono">
-                        <img src="iconos/afirmativo.png" alt="">
-                        <img src="iconos/negativo.png" alt="">
+                        <img src="iconos/afirmativo.png" alt="" onclick='accept("#request-2")'>
+                        <img src="iconos/negativo.png" alt="" onclick='ignore("#request-2")'>
                     </div>
                 </div>
             </div>
             <div class="conecciones">
                 <div class="gris">
-                    <button>+418</button>
+                    <button id="connections">+418</button>
                     <h3>Your Conections</h3>
                 </div>
                 <div class="am">
